@@ -35,14 +35,14 @@ const EditTopicForm = ({id, title, description}) => {
             onChange={(e) => setEdTitle(e.target.value)}
         />   
         <textarea
-            rows="5" 
+            rows="8" 
             className="border border-slate-500 px-8 py-2"
             placeholder="내용을 쓰세요"
             value={edDescription}
             onChange={(e)=>setEdDescription(e.target.value)}
         />       
         <button type="submit"
-                className="bg-green-600 font-bold text-white py-3">
+                className="bg-blue-600 font-bold text-white py-3">
                 전 송
         </button>  
     </form>
