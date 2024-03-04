@@ -1,6 +1,6 @@
 # TODO-WEB
 
-NEXTJS 기반으로 제작된 TODO 리스트 CRUD 프로젝트
+NEXTJS 기반으로 제작된 TODO-list CRUD 프로젝트
 <br/><br/>
 
 ## :globe_with_meridians:	사용언어
