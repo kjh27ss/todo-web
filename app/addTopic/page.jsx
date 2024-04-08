@@ -13,7 +13,7 @@ const AddTopic = () => {
         return;
     }
     try{
-       const res = await fetch("http://localhost:3001/api", {
+       const res = await fetch("http://localhost:3000/api", {
           method: "POST",
           headers: {
             "Content-type" : "application/json"
@@ -22,6 +22,7 @@ const AddTopic = () => {
        });
        if(res.ok){
           router.push("/");
+          router.refresh("/");
        }else{
           throw new Error("입력오류");
        }
