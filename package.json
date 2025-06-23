@@ -2,13 +2,16 @@
   "name": "todo-web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kjh27ss.github.io/todo-web/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build" 
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "mongoose": "^8.0.0",
     "next": "14.0.1",
     "react": "^18",
